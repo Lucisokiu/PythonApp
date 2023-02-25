@@ -1,0 +1,20 @@
+StartButton:
+
+<StartButton>:
+    Camera:
+        id: camera
+        resolution: (640, 480)
+        play: True
+    Button:
+        text: "Choose from libary"
+        pos: 200, 300
+        size: 150, 100
+        on_press: root.take_picture_from_libary()
+    Button:
+        text: "Take a photo"
+        pos: 400, 300
+        size: 150, 100
+        on_press: root.take_picture_from_camera()
+
+
+
